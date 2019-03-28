@@ -46,9 +46,7 @@ const splash = async (instance, config) => {
 				'--enable-translate-new-ux',
 				'--window-size=1000,800',
 				`--user-agent=${_.sample(USER_AGENTS)}`,
-				`--profile-directory=PROFILE_${instance}`,
-				`--disable-extensions-except=${path.resolve(__dirname, 'crx/uBlock')},${path.resolve(__dirname, 'crx/ETC')}`,
-				`--load-extension=${path.resolve(__dirname, 'crx/uBlock')},${path.resolve(__dirname, 'crx/ETC')}`
+				`--profile-directory=PROFILE_${instance}`
 			]
 		});
 
