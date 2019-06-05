@@ -4,7 +4,7 @@ const CONFIG = {
 	instances: 10,
 	tabs: 0,
 	reload: true,
-	timeout: 20
+	timeout: 31
 };
 
 const USER_AGENTS = [
